@@ -36,4 +36,4 @@ jobs:
           echo "GOOGLE_APPLICATION_CREDENTIALS=$HOME/firebase-key.json" >> $GITHUB_ENV
 
       - name: Deploy Firebase Hosting
-        run: firebase deploy --only hosting --project SEU_PROJECT_ID
+        run: firebase deploy --only hosting --project pie-ciberseguranca
